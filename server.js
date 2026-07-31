@@ -22,6 +22,7 @@ const fallbackHtml = `<!doctype html>
     <div class="card">
       <h1>ZEUS-PANEL</h1>
       <p>Render deployment is online. Static assets are unavailable in this snapshot, but the service is running.</p>
+      <p>Entry file: source.js</p>
       <p><a href="/health">Health check</a></p>
     </div>
   </body>
