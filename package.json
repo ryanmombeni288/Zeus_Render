@@ -1,0 +1,14 @@
+{
+  "name": "zeus-panel-render",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Render-ready web service scaffold for the ZEUS-PANEL project.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  }
+}

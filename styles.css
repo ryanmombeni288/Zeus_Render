@@ -1,0 +1,65 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #0f172a, #111827);
+  color: #f8fafc;
+}
+
+.shell {
+  width: min(92vw, 760px);
+  padding: 24px;
+}
+
+.card {
+  background: rgba(15, 23, 42, 0.78);
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+}
+
+.eyebrow {
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #93c5fd;
+  font-size: 0.78rem;
+  margin: 0 0 10px;
+}
+
+h1 {
+  margin: 0 0 14px;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+.lead {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #cbd5e1;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.actions a {
+  text-decoration: none;
+  color: #f8fafc;
+  background: #2563eb;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.actions a:last-child {
+  background: #1f2937;
+}
